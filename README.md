@@ -1,2 +1,3 @@
 # Learning_GIT
-Have gun you guys!
+
+Have fun with your GIT Tutorial
