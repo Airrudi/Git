@@ -6,13 +6,14 @@ margin:50px auto;
 font-family: 'Raleway', sans-serif;
 }
 
-h2{
+/*h2{
 background-color: #FEFFED;
 text-align:center;
 border-radius: 10px 10px 0 0;
 margin: -10px -40px;
 padding: 15px;
-}
+}*/
+#login{margin-bottom:60px;}
 
 hr{
 border:0;
@@ -22,13 +23,13 @@ margin-bottom: 30px;
 }
 
 #login{
-width:300px;
-float: left;
-border-radius: 10px;
-font-family:raleway;
-border: 2px solid #ccc;
-padding: 10px 40px 25px;
-margin-top: 70px;
+	display:inline-block; float:left;
+	width:400px;
+	border-radius: 10px;
+	font-family:raleway;
+	border: 2px solid #ccc;
+	padding: 10px 40px 25px;
+	margin-top: 35px;
 }
 
 input[type=text],input[type=email]{
@@ -39,23 +40,29 @@ border: 1px solid #ccc;
 padding-left: 5px;
 font-size: 16px;
 font-family:raleway;
+margin-bottom:30px;
 }
 
 input[type=submit]{
-width: 100%;
-background-color:#FFBC00;
-color: white;
-border: 2px solid #FFCB00;
-padding: 10px;
-font-size:20px;
-cursor:pointer;
-border-radius: 5px;
-margin-bottom: -12px;
+	line-height:40px;
+	width: 100%;
+	border:none;
+	background-color:#2478CC;
+	color: white;	
+	padding: 10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	transition:0.3s;
 }
 
-#formget{
-float:right;
-}
-h1 {
-margin-left: -85px;
-}
+input[type=submit]:hover{background-color:#10559A;}
+
+
+#entertainment{display:inline-block; float:right;}
+#entertainment iframe{width:425px; height:240px; display:block; margin-top:35px;}
+
+#formget{float:right;}
+
+#errorMessage{text-align:left; color:red; margin-top:35px;}
